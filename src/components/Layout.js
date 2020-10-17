@@ -10,10 +10,16 @@ const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata()
   return (
     <div>
-      <Helmet>
+      <Helmet
+        bodyAttributes={{
+          class: 'has-navbar-fixed-top'
+        }}
+      >
         <html lang="en" />
         <title>{title}</title>
         <meta name="description" content={description} />
+
+        <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap" rel="stylesheet"/>
 
         <link
           rel="apple-touch-icon"
@@ -39,14 +45,10 @@ const TemplateWrapper = ({ children }) => {
           color="#ff4400"
         />
         <meta name="theme-color" content="#fff" />
-
         <meta property="og:type" content="business.business" />
         <meta property="og:title" content={title} />
         <meta property="og:url" content="/" />
-        <meta
-          property="og:image"
-          content={`${withPrefix('/')}img/og-image.jpg`}
-        />
+        <meta property="og:image" content={`${withPrefix('/')}img/og-image.jpg`} />
       </Helmet>
       <Navbar />
       <div>{children}</div>
