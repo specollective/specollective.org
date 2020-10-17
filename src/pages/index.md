@@ -2,10 +2,10 @@
 templateKey: index-page
 title: Sustainable Progress and Equality Collective
 image: /img/home-jumbotron.jpg
-heading: Sharing Knowledge. Building Communities.
-subheading: Support sustainable farming while enjoying a cup
+heading: Our Mission
+subheading: Sharing Knowledge. Building Communities.
 mainpitch:
-  title: Why Kaldi
+  title: Our Vision
   description: >
     Kaldi is the coffee store for everyone who believes that great coffee
     shouldn't just taste good, it should do good too. We source all of our beans
