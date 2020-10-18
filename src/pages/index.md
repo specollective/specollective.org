@@ -1,44 +1,41 @@
 ---
 templateKey: index-page
 title: Sustainable Progress and Equality Collective
+subtitle: Build Skills. Grow your career. Make an Impact.
 image: /img/home-jumbotron.jpg
-heading: Our Mission
+heading: Who We are
 subheading: Build Skills. Grow your career. Make an Impact.
 mainpitch:
-  title: Who We Are
+  title: Our Values
   description: >
-    We are open-learning organization that empowers individuals to be catalysts for change.
+    The Sustainable Progress and Equality Collective (SPEC) is open-learning organization that empowers individuals to be catalysts for change.
+ourwork:
+  topics:
+    - title: Action Research
+      icon: search
+    - title: Mentoring & Training
+      icon: chalkboard-teacher
+    - title: Diversity & Inclusion
+      icon: users
 description: >
   Our mission is to empower individuals to become globally-minded change agents by helping them learn the essential skills required to build sustainable careers and make a positive impact in their communities.
 intro:
   blurbs:
     - image: /img/coffee.png
+      title: Mutual Reciprocity
+      icon: hands-helping
       text: >
-        We sell green and roasted coffee beans that are sourced directly from
-        independent farmers and farm cooperatives. We’re proud to offer a
-        variety of coffee beans grown with great care for the environment and
-        local communities. Check our post or contact us directly for current
-        availability.
+        We treat our people, partners, contributors, participants, and everyone else in our communities with respect and mutual reciprocity.
     - image: /img/coffee-gear.png
+      icon: book-open
+      title: Transparency
       text: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
+        Transparency is key if we want to raise awareness, inform, and advocate change. We communicate openly, sincerely, and directly.
     - image: /img/tutorials.png
+      icon: globe
+      title: Sustainability & Inclusivity
       text: >
-        Love a great cup of coffee, but never knew how to make one? Bought a
-        fancy new Chemex but have no clue how to use it? Don't worry, we’re here
-        to help. You can schedule a custom 1-on-1 consultation with our baristas
-        to learn anything you want to know about coffee roasting and brewing.
-        Email us or call the store for details.
-    - image: /img/meeting-space.png
-      text: >
-        We believe that good coffee has the power to bring people together.
-        That’s why we decided to turn a corner of our shop into a cozy meeting
-        space where you can hang out with fellow coffee lovers and learn about
-        coffee making techniques. All of the artwork on display there is for
-        sale. The full price you pay goes to the artist.
+        We believe progress is a byproduct of inclusive and sustainable practices.
   heading: What we offer
   description: >
     Kaldi is the ultimate spot for coffee lovers who want to learn about their

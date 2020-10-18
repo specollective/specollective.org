@@ -22,7 +22,7 @@ export const ProjectPageTemplate = ({
     <div
       className="full-width-image-container margin-top-0"
       style={{
-        backgroundImage: `url(${
+        backgroundImage: `linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(${
           !!image.childImageSharp ? image.childImageSharp.fluid.src : image
         })`,
       }}
@@ -44,7 +44,9 @@ export const ProjectPageTemplate = ({
         <div className="section">
           <div className="columns">
             <div className="column is-7 is-offset-1">
-              <h3 className="has-text-weight-semibold is-size-2">{heading}</h3>
+              <h3 className="has-text-weight-semibold is-size-2">
+                {heading}
+              </h3>
               <p>{description}</p>
             </div>
           </div>
@@ -136,6 +138,8 @@ export const projectPageQuery = graphql`
                 }
               }
             }
+            title
+            icon
             text
           }
           heading
