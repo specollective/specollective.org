@@ -2,6 +2,8 @@ import React from 'react'
 import { Link } from 'gatsby'
 import github from '../img/github-icon.svg'
 import logo from '../img/spec-logo.png'
+import twitter from '../img/social/twitter.svg'
+import linkedin from '../img/social/linkedin.png'
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -78,6 +80,22 @@ const Navbar = class extends React.Component {
               </Link>
             </div>
             <div className="navbar-end has-text-centered">
+            <div className="social-nav">
+                <a title="twitter" href="https://twitter.com/specollective">
+                  <img
+                    src={twitter}
+                    alt="Twitter"
+                    style={{ width: '1em', height: '1em' }}
+                  />
+                </a>
+                <a title="linkedin" href="https://www.linkedin.com/company/specollective/">
+                  <img
+                    src={linkedin}
+                    alt="LinkedIn"
+                    style={{ width: '1em', height: '1em' }}
+                  />
+                </a>
+              </div>
               <button className="button is-light" style={{margin: '0.50em'}}>Donate</button>
             </div>
           </div>
