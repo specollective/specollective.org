@@ -19,6 +19,7 @@ export const IndexPageTemplate = ({
   subheading,
   title,
 }) => {
+  console.log(ourwork)
   return (
     <div>
       <div style={{width: '100%', paddingTop: '2em', paddingBottom: '4em'}}>
@@ -239,13 +240,13 @@ export const pageQuery = graphql`
           title
           description
         }
+        description
         ourwork {
           topics {
             title
             icon
           }
         }
-        description
         intro {
           blurbs {
             image {

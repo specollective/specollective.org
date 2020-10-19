@@ -9,6 +9,10 @@ mainpitch:
   title: Our Values
   description: >
     The Sustainable Progress and Equality Collective (SPEC) is open-learning organization that empowers individuals to be catalysts for change.
+
+description: >
+  Our mission is to empower individuals to become globally-minded change agents by helping them learn the essential skills required to build sustainable careers and make a positive impact in their communities.
+
 ourwork:
   topics:
     - title: Action Research
@@ -17,8 +21,7 @@ ourwork:
       icon: chalkboard-teacher
     - title: Diversity & Inclusion
       icon: users
-description: >
-  Our mission is to empower individuals to become globally-minded change agents by helping them learn the essential skills required to build sustainable careers and make a positive impact in their communities.
+
 intro:
   blurbs:
     - image: /img/coffee.png
