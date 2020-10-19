@@ -54,7 +54,7 @@ EventPageTemplate.propTypes = {
   helmet: PropTypes.object,
 }
 
-const BlogPost = ({ data }) => {
+const EventPage = ({ data }) => {
   const { markdownRemark: post } = data
 
   return (
@@ -79,13 +79,13 @@ const BlogPost = ({ data }) => {
   )
 }
 
-BlogPost.propTypes = {
+EventPage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.object,
   }),
 }
 
-export default BlogPost
+export default EventPage
 
 export const pageQuery = graphql`
   query EventPageByID($id: String!) {
