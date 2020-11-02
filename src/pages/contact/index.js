@@ -11,24 +11,38 @@ function encode(data) {
 export default class Index extends React.Component {
   constructor(props) {
     super(props)
-    this.state = { isValidated: false }
+
+    this.state = {
+      isValidated: false,
+      name: '',
+      email: '',
+      message: '',
+      mentor: false,
+      mentee: false,
+      contributor: false,
+    }
   }
 
   handleChange = (e) => {
     this.setState({ [e.target.name]: e.target.value })
   }
 
+  handleCheck = (e) => {
+    this.setState({ [e.target.name]: e.target.checked })
+  }
+
   handleSubmit = (e) => {
     e.preventDefault()
+
     const form = e.target
-    fetch('/', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      body: encode({
-        'form-name': form.getAttribute('name'),
-        ...this.state,
-      }),
+    const { name, email, message, roles } = this.state
+    const headers = { 'Content-Type': 'application/x-www-form-urlencoded' }
+    const body = encode({
+      'form-name': form.getAttribute('name'),
+      ...this.state,
     })
+
+    fetch('/', { method: 'POST', headers, body })
       .then(() => navigate(form.getAttribute('action')))
       .catch((error) => alert(error))
   }
@@ -36,76 +50,130 @@ export default class Index extends React.Component {
   render() {
     return (
       <Layout>
-        <section className="section">
-          <div className="container">
-            <div className="content">
-              <h1>Contact</h1>
-              <form
-                name="contact"
-                method="post"
-                action="/contact/thanks/"
-                data-netlify="true"
-                data-netlify-honeypot="bot-field"
-                onSubmit={this.handleSubmit}
-              >
-                {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
-                <input type="hidden" name="form-name" value="contact" />
-                <div hidden>
-                  <label>
-                    Don’t fill this out:{' '}
-                    <input name="bot-field" onChange={this.handleChange} />
-                  </label>
-                </div>
-                <div className="field">
-                  <label className="label" htmlFor={'name'}>
-                    Your name
-                  </label>
-                  <div className="control">
-                    <input
-                      className="input"
-                      type={'text'}
-                      name={'name'}
-                      onChange={this.handleChange}
-                      id={'name'}
-                      required={true}
-                    />
+        <div className="full-width-image-container margin-top-0 spec-blue-background">
+          <h2 className="header-title has-text-weight-bold is-size-1 is-white">
+            Get Involved
+          </h2>
+        </div>
+        <section className="hero is-fullheight">
+          <div className="hero-body">
+            <div className="container has-text-centered">
+              <div className="columns is-8 is-variable ">
+                <div className="column is-two-thirds has-text-left">
+                  <h1 className="title site-title is-1">
+                    Interested in becoming a member?
+                  </h1>
+                  <p className="is-size-4">
+                    One of our most important core values is to partner with our team members because we know they are instrumental in the success of SPEC. We offer an exciting and creative workplace that encourages personal and professional growth to all of our members (contributors, mentors, and mentees) alike.
+                  </p>
+                  <div className="social-media">
+                    <a
+                      href="https://www.facebook.com/specollective"
+                      target="_blank"
+                      className="button is-light is-large"
+                    >
+                      <i className="fab fa-facebook-square" aria-hidden="true"></i>
+                    </a>
+
+                    <a
+                      href="https://twitter.com/specollective"
+                      target="_blank"
+                      className="button is-light is-large"
+                    >
+                      <i className="fab fa-twitter" aria-hidden="true"></i>
+                    </a>
+
+                    <a
+                      href="https://www.linkedin.com/company/specollective"
+                      target="_blank"
+                      className="button is-light is-large"
+                    >
+                      <i className="fab fa-linkedin-in" aria-hidden="true"></i>
+                    </a>
                   </div>
                 </div>
-                <div className="field">
-                  <label className="label" htmlFor={'email'}>
-                    Email
-                  </label>
-                  <div className="control">
-                    <input
-                      className="input"
-                      type={'email'}
-                      name={'email'}
-                      onChange={this.handleChange}
-                      id={'email'}
-                      required={true}
-                    />
-                  </div>
+                <div className="column is-one-third has-text-left">
+                  <form
+                    name="contact"
+                    method="post"
+                    action="/contact/thanks/"
+                    data-netlify="true"
+                    data-netlify-honeypot="bot-field"
+                    onSubmit={this.handleSubmit}
+                  >
+                    <div className="field">
+                      <label className="label">
+                        Name
+                      </label>
+                      <div className="control">
+                        <input
+                          className="input is-medium"
+                          type="text"
+                          name="name"
+                          onChange={this.handleChange}
+                          id="name"
+                          required={true}
+                        />
+                      </div>
+                    </div>
+                    <div className="field">
+                      <label className="label">
+                        Email
+                      </label>
+                      <div className="control">
+                        <input
+                          className="input is-medium"
+                          type="email"
+                          name="email"
+                          onChange={this.handleChange}
+                          id="email"
+                          required={true}
+                        />
+                      </div>
+                    </div>
+                    <div className="field">
+                      <div className="control">
+                        <label className="checkbox">
+                          <input name="mentor" type="checkbox" onChange={this.handleCheck} /> Mentor
+                        </label>
+                      </div>
+                      <div className="control">
+                        <label className="checkbox">
+                          <input name="mentee" type="checkbox" onChange={this.handleCheck} /> Mentee
+                        </label>
+                      </div>
+                      <div className="control">
+                        <label className="checkbox">
+                          <input name="contributor" type="checkbox" onChange={this.handleCheck} /> Contributor
+                        </label>
+                      </div>
+                    </div>
+                    <div className="field">
+                      <label className="label">
+                        Message
+                      </label>
+                      <div className="control">
+                        <textarea
+                          className="textarea is-medium"
+                          name="message"
+                          onChange={this.handleChange}
+                          id="message"
+                          required={true}
+                        >
+                        </textarea>
+                      </div>
+                    </div>
+                    <div className="control">
+                      <button
+                        type="submit"
+                        className="button is-link is-success is-fullwidth has-text-weight-medium is-medium"
+                      >
+                        Send Message
+                      </button>
+                    </div>
+                  </form>
                 </div>
-                <div className="field">
-                  <label className="label" htmlFor={'message'}>
-                    Message
-                  </label>
-                  <div className="control">
-                    <textarea
-                      className="textarea"
-                      name={'message'}
-                      onChange={this.handleChange}
-                      id={'message'}
-                      required={true}
-                    />
-                  </div>
-                </div>
-                <div className="field">
-                  <button className="button is-link" type="submit">
-                    Send
-                  </button>
-                </div>
-              </form>
+              </div>
             </div>
           </div>
         </section>

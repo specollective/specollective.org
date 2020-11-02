@@ -1,17 +1,94 @@
 @import "~bulma/sass/utilities/initial-variables"
 
-// Config vars
-// Kaldi logo brand color: #FD461E
-$kaldi-red: #D64000
-$kaldi-red-invert: #fff
+// body
+//   display: flex
+//   min-height: 200vh
+//   flex-direction: column
 
-$primary: $kaldi-red
-$primary-invert: $kaldi-red-invert
+$spec-black: #222525
+$spec-black-invert: #fff
+$spec-blue: #587AA0
+$spec-green: #068466
+$spec-purple: #553F99
+$spec-red: #F16A6E
+$spec-dark-blue: #202d3b
+$spec-lite-blue: #B2E1E6
+
+
+$primary: $spec-black
+$primary-invert: $spec-black-invert
 $body-color: #333
-$black: #2b2523
+$black: #222525
+$is-light: #ecf0f1
+$success: $spec-blue
+$navbar-item-active-color: $spec-blue
+$footer-background-color: $spec-dark-blue
+
+.team-member-name
+
+.team-member-title
+  padding-bottom: 4px
+
+.mainpitch-quote
+  font-family: 'Zilla Slab', serif
+  font-weight: 400px
+  font-style: italic
+
+
+.checkbox
+  display: block
+
+.circle-icon
+  display: inline-block
+  border-radius: 60px
+  box-shadow: 0px 0px 2px #888
+  padding: 0.5em 0.6em
+
+.divider
+  border-top: 4px solid #272929
+  border-radius: 4px
+  width: 200px
+  margin-bottom: 1rem
+
+.centered
+  display: block
+  margin: auto
+
+.header-title
+  color: white
+  font-family: 'Zilla Slab', serif
+
+.site-title
+  font-family: 'Zilla Slab', serif
+  color: #62636B
+
+
+
+
+.testimonials-title
+  color: white
+
+// .navbar-item
+//   font-weight: 500
+//   font-size: 16px
+//   line-height: 24px
+//   color: $black
+//   font-family: 'DM Sans', sans-serif
+
+.hero .nav, .hero.is-success .nav
+  -webkit-box-shadow: none
+  box-shadow: none
+
+.hero .subtitle
+  padding: 3rem 0
+  line-height: 1.5
+
 
 .navbar .navbar-menu
   box-shadow:none !important
+
+.navbar-item
+  font-weight: 500
 
 .content .taglist
   list-style: none
@@ -28,10 +105,26 @@ $black: #2b2523
     margin-bottom: 1.5rem
     margin-top: 0
 
+.spec-green-background
+  background: $spec-green
+
+.spec-blue-background
+  background: $spec-blue
+
+.spec-purple-background
+  background: $spec-purple
+
+.spec-lite-blue-background
+  background: $spec-lite-blue
+
+// .spec-orange-background
+//   background: rgb(250 166 52 / 20%)
+
+
 // Helper Classes
 .full-width-image-container
   width: 100vw
-  height: 400px
+  height: 150px
   position: relative
   left: 50%
   right: 50%
@@ -51,51 +144,56 @@ $black: #2b2523
     justify-content: center
     align-items: center
 
-.btn
-    display: inline-block
-    padding: 12px 16px 10px
-    font-size: 18px
-    font-size: 1rem
-    line-height: 1.25
-    background-color: #fff
-    border-radius: .25rem
-    text-decoration: none
-    font-weight: 700
-    color: #CC3700
-    text-align: center
-    -webkit-box-shadow: inset 0 0 0 2px #CC3700
-    box-shadow: inset 0 0 0 2px #f40
-    -webkit-transition: all .15s ease
-    transition: all .15s ease
+.cta-btn
+  background-color: $spec-green
+  color: white
+  font-weight: 500
+  display: inline-block
+  padding: 12px 16px 10px
+  border-radius: .25rem
+
+.team-pic
+  border-radius: 50%
 
 .margin-top-0
   margin-top: 0 !important
 
+.icon-container
+  padding-bottom: 1.5em
+
 .navbar-item .icon
   color: $primary
-// Override for use of svg's from https://simpleicons.org/
+
 .icon svg
   width: 1.5rem
   height: 1.5rem
   fill: currentColor
-.navbar-brand .navbar-item.logo
-  padding: 0 1rem
-footer.footer
-  padding: 3rem 0rem 0rem
-  background-color: transparent
 
-//Menu overrides
+.navbar-brand .navbar-item.logo
+  padding-right: 3rem
+  font-size:  2.5rem
+  font-weight: bold
+  font-family: 'Zilla Slab', serif
+
+footer.footer
+  background-color: #272929
+
+$navbar-item-hover-color: $black
+$navbar-item-color: $black
+$navbar-height: 6rem
+
 $menu-item-color: $white-ter
 $menu-item-hover-color: $black !important
 $menu-item-hover-background-color: $black
-$menu-item-active-color: $kaldi-red-invert
-$menu-item-active-background-color:	$kaldi-red-invert
-$menu-list-border-left: 1px solid $kaldi-red-invert
+$menu-item-active-color: $spec-black-invert
+$menu-item-active-background-color:	$spec-black-invert
+$menu-list-border-left: 1px solid $spec-black-invert
 $menu-label-color: $white-ter
+$subtitle-family: 'DM Sans', sans-serif
 
 
 .menu-label
-  font-size: 1em !important
+  font-size: 5em !important
   text-align: left
 .menu-list
   list-style: none !important
@@ -114,13 +212,31 @@ $menu-label-color: $white-ter
 
 // blog roll
 .blog-list-item.is-featured
-  background-color: #d6400033;
+  background-color: #9c88ff
+
 .blog-list-item header
-  display: flex;
-  margin-bottom: 1em;
+  display: flex
+  margin-bottom: 1em
+
 .blog-list-item .featured-thumbnail
-  flex-basis: 35%;
-  margin: 0 1.5em 0 0;
+  flex-basis: 35%
+  margin: 0 1.5em 0 0
+
+.blog-content p
+  // text-indent: 30px
+
+.message-body
+  font-style: italic
+
+.social-media
+  margin-top: 30px
+  color: black
+
+.social-media a
+  margin-right: 10px
+
+.field:not(:last-child)
+  margin-bottom: 20px
 
 
 @import "~bulma"
@@ -129,12 +245,20 @@ $menu-label-color: $white-ter
 // responsiveness
 +tablet-only
   .blog-list-item .featured-thumbnail
-    flex-basis: 50%;
+    flex-basis: 50%
 
 +mobile
   .blog-list-item header
     display: block
+
   .blog-list-item .featured-thumbnail
-    text-align: center;
-    max-width: 70%;
-    margin: 0 0 1em;
+    text-align: center
+    max-width: 70%
+    margin: 0 0 1em
+
+
+.navbar-item
+  flex-grow: 0
+  flex-shrink: 0
+  img
+    max-height: 10rem

@@ -10,8 +10,7 @@ class BlogRoll extends React.Component {
 
     return (
       <div className="columns is-multiline">
-        {posts &&
-          posts.map(({ node: post }) => (
+        {posts && posts.map(({ node: post }) => (
             <div className="is-parent column is-6" key={post.id}>
               <article
                 className={`blog-list-item tile is-child box notification ${
@@ -46,7 +45,7 @@ class BlogRoll extends React.Component {
                   {post.excerpt}
                   <br />
                   <br />
-                  <Link className="button" to={post.fields.slug}>
+                  <Link className="button is-success has-text-white" to={post.fields.slug}>
                     Keep Reading →
                   </Link>
                 </p>
