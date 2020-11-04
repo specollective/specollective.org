@@ -5,6 +5,7 @@ import logo from '../img/spec-logo.png'
 import Layout from '../components/Layout'
 import Features from '../components/Features'
 import EventList from '../components/EventList'
+import MailingListForm from '../components/MailingListForm'
 
 export const IndexPageTemplate = ({
   title,
@@ -201,25 +202,7 @@ export const IndexPageTemplate = ({
         </div>
       </section>
 
-      <section className="section section--gradient spec-orange-background" style={{backgroundColor: 'rgb(250 166 52 / 20%)'}}>
-        <div class="hero-body">
-          <div class="container has-text-centered">
-            <div class="column is-6 is-offset-3">
-              <h1 class="title site-title is-size-2">Sign up for our mailing list</h1>
-              <div class="box">
-                <div class="field is-grouped">
-                  <p class="control is-expanded">
-                    <input class="input" type="text" placeholder="Email Address" />
-                  </p>
-                  <p class="control">
-                    <a class="button is-success">Sign Up</a>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <MailingListForm />
     </div>
   )
 }
