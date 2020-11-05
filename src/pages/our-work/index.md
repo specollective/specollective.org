@@ -35,7 +35,7 @@ intro:
       text: >
         Provide mentoring, training, and internships to people from underrepresented groups to help them get into the job market and become financially independent and sustainable.
     - image: /img/meeting-space.png
-      title: Deliverative Conversations
+      title: Deliberative Conversations
       icon: comments
       text: >
         Designed to increase cultural awareness through discourse among learners and facilitators on challenging topics, these discussions assemble a diversity of perspectives around a difficult or controversial topic, and encourages participants to collaboratively develop and advocate ideas for inclusive solutions.
