@@ -68,7 +68,14 @@ export default class MailingListForm extends React.Component {
                 >
                   <div className="field is-grouped">
                     <p className="control is-expanded">
-                      <input className="input" type="text" placeholder="Email Address" />
+                      <input
+                        className="input"
+                        type="email"
+                        name="email"
+                        onChange={this.handleChange}
+                        id="email"
+                        required={true}
+                      />
                     </p>
                     <p className="control">
                       <button type="submit" className="button is-success">Sign Up</button>
