@@ -1,7 +1,7 @@
 ---
 templateKey: event-page
 title: "Buffalo Project Presents: SUNY Empire Internship Panel"
-date: 2020-01-01T23:00:00.000Z
+date: 2020-11-04T23:00:00.000Z
 description: |
   11/4/2020 6:00 PM - 7:00 PM
 featuredevent: false
