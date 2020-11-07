@@ -59,7 +59,7 @@ export default class MailingListForm extends React.Component {
               <h1 className="title site-title is-size-2">Sign up for our mailing list</h1>
               <div className="box">
                 <form
-                  name="contact"
+                  name="mailing-list"
                   method="post"
                   action="/contact/thanks/"
                   data-netlify="true"

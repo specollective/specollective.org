@@ -94,7 +94,7 @@ export default class Index extends React.Component {
                 </div>
                 <div className="column is-one-third has-text-left">
                   <form
-                    name="contact"
+                    name="getinvolved"
                     method="post"
                     action="/contact/thanks/"
                     data-netlify="true"
