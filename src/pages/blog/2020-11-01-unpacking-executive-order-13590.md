@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: Unpacking Executive Order 13590 - Diversity Training in the US
-date: 2017-01-04T15:04:10.000Z
+date: 2020-11-01T18:43:00.000Z
 description: Understanding the new executive order regulating diversity training
   in the US government.
 featuredpost: false
@@ -12,6 +12,8 @@ tags:
   - inclusion
   - executive-order
 ---
+By Mikayla Schneiter
+
 In response to growing awareness of the ongoing disparate treatment of people based on their race and sex in the United States, American institutions have endeavored to teach a more holistic perspective on diversity, equity and inclusion. Educators have brought previously-hidden voices from history into mainstream curriculums, and private and public employers alike have embraced anti-bias training programs which account for generations of cross-cultural miscommunication. For as long as Americans have learned and grown through diversity training programs, these efforts have been the subject of political and cultural debate (Dishman, 2018).
 
 A recent executive order from the White House (Executive Order No. 13950, 2020) has banned diversity training for federal employers and federal contractors and has banned other institutions from using federal funds to promote science-backed diversity and inclusion efforts. The executive order claims that these diversity, equity and inclusion programs are “anti American” and asserts that the intended effect of this new law is to end “race and sex stereotyping” (Executive Order No. 13950, 2020).
