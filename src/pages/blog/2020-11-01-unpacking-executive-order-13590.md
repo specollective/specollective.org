@@ -2,8 +2,7 @@
 templateKey: blog-post
 title: Unpacking Executive Order 13590 - Diversity Training in the US
 date: 2020-11-01T18:43:00.000Z
-description: Understanding the new executive order regulating diversity training
-  in the US government.
+description: By Mikayla Schneiter
 featuredpost: false
 featuredimage: /img/apple-touch-icon.png
 tags:
@@ -12,8 +11,6 @@ tags:
   - inclusion
   - executive-order
 ---
-By Mikayla Schneiter
-
 In response to growing awareness of the ongoing disparate treatment of people based on their race and sex in the United States, American institutions have endeavored to teach a more holistic perspective on diversity, equity and inclusion. Educators have brought previously-hidden voices from history into mainstream curriculums, and private and public employers alike have embraced anti-bias training programs which account for generations of cross-cultural miscommunication. For as long as Americans have learned and grown through diversity training programs, these efforts have been the subject of political and cultural debate (Dishman, 2018).
 
 A recent executive order from the White House (Executive Order No. 13950, 2020) has banned diversity training for federal employers and federal contractors and has banned other institutions from using federal funds to promote science-backed diversity and inclusion efforts. The executive order claims that these diversity, equity and inclusion programs are “anti American” and asserts that the intended effect of this new law is to end “race and sex stereotyping” (Executive Order No. 13950, 2020).
@@ -28,7 +25,11 @@ Importantly, legal language of the order is not as clear as the cultural messagi
 
 Numerous studies have detailed the role bias plays in social interactions across the globe (Mason, 2020). The roots of these racist ideologies can be traced through generations. The White House order claims that programs dedicated to examining these dynamics teach “that America is an irredeemably racist and sexist country; that some people, simply on account of their race or sex, are oppressors; and that racial and sexual identities are more important than our common status as human beings and Americans” (Executive Order No. 13950, 2020). Contrary to this language definition, education which examines the psychology and economy of racism and sexism throughout American history does not convey a message of hopelessness or a vision of an irredeemable nation. Rather, it is because America has inherited the enterprising and innovative spirit of generations past that diversity advocates seek to understand and confront the historic trends that have, at times, caused this great nation to fall short of its promise. Only through education and analysis of past failures can we hope to thrive in and improve upon the legacy previous generations left for us.
 
-**References**
+# About the author
+
+Mikayla Schneiter is SPEC CITISEN research associate and an undergraduate student at Empire State College, where she is pursuing a degree in Public Affairs with a concentration in Advocacy. She is a graduate of SUNY Erie Community College, where she earned a degree in Paralegal Studies. Mikayla works as a paralegal in the litigation department of a downtown Buffalo law firm which serves and advocates for injured and disabled people.
+
+# References
 
 Dishman, Lydia. (2018). A Brief History of Diversity Training. Fast Company. Retrieved from [www.fastcompany.com/40579246/a-brief-history-of-diversity-training](www.fastcompany.com/40579246/a-brief-history-of-diversity-training).
 
@@ -36,7 +37,7 @@ Executive Order. No. 13950, 3 C.F.R. 60683–60689 (2020).
 
 Flaherty, C. (2020). Colleges cancel diversity programs in response to Trump order. Insidehighered.com. Retrieved from <https://www.insidehighered.com/news/2020/10/07/colleges-cancel-diversity-programs-response-trump-order>.
 
-Goldstein, D., Paretti Jr., J., & Lolito, M. (2020). New Executive Order Seeks to Regulate Diversity Training by Federal Contractors and Grant Recipients. Littler Mendelson P.C. Retrieved from <https://www.littler.com/publication-press/publication/new-executive-order-seeks-regulate-diversity-training-federal>. 
+Goldstein, D., Paretti Jr., J., & Lolito, M. (2020). New Executive Order Seeks to Regulate Diversity Training by Federal Contractors and Grant Recipients. Littler Mendelson P.C. Retrieved from <https://www.littler.com/publication-press/publication/new-executive-order-seeks-regulate-diversity-training-federal>.
 
 Mason, Betsy. (2020). Making People Aware of Their Implicit Biases Doesn't Usually Change Minds. But Here's What Does Work. Public Broadcasting Service. Retrieved from [www.pbs.org/newshour/nation/making-people-aware-of-their-implicit-biases-doesnt usually-change-minds-but-heres-what-does-work](<www.pbs.org/newshour/nation/making-people-aware-of-their-implicit-biases-doesnt usually-change-minds-but-heres-what-does-work>).
 
