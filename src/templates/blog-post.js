@@ -26,7 +26,7 @@ export const BlogPostTemplate = ({
               {title}
             </h1>
 
-            {/* <p>{description}</p> */}
+            <p>{description}</p>
 
             <div className="blog-content">
               <PostContent content={content} />

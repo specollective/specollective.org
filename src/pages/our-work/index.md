@@ -67,3 +67,11 @@ testimonials:
       Kaldi is the place to go if you want the best quality coffee. I love their
       stance on empowering farmers and transparency.
 ---
+
+### Community Innovation and Technology Internship for a Sustainable and Equitable Nation (CITISEN)
+
+The goal of the CITISEN program is to provide personalized service-learning experiences to help individuals from underrepresented backgrounds achieve financial independence and become community leaders. CITISEN research associates, or simply CITISENs, are connected with experts in their areas of interest to receive mentorship and training. CITISENs are encouraged to research their interests and look for opportunities to contribute in their local communities. Through the CITISEN program and partnerships with community organizations, SPEC offers research assistantships that give interns an opportunity to gain paid work experience applying their skills towards community development and sustainability initiatives.
+
+### SPEC Learning
+
+SPEC Learning is an online educational platform that offers microcredentials, stackable competency-based short microcredentials, focused on bridging skill gaps. The first FREE microcredential offered by SPEC Learning is Office Street Smarts, based on the 2016 survey data collected by the National Association of Colleges and Employers (NACE). This 3-week microcredential is designed to provide essential competency training, including organization, project management, and interpersonal skills, such as teamwork, diversity, communication, and persuasiveness ("Bridge That Gap," 2016).
