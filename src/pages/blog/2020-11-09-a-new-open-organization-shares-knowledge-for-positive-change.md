@@ -19,7 +19,7 @@ The result of their efforts has been the development of two pilot programs; the 
 
 SPEC Learning is an online educational platform that offers microcredentials, stackable competency-based short microcredentials, focused on bridging skill gaps. The first FREE microcredential offered by SPEC Learning is Office Street Smarts, based on the 2013 survey data collected by the National Association of Colleges and Employers (NACE). This 3-week microcredential is designed to provide essential competency training, including organization, project management, and interpersonal skills, such as teamwork, diversity, communication, and persuasiveness (Sauder et al., 2016).
 
-For more information on SPEC, visit us at <https://specollective.org>, or connect with us via [LinkedIn](https://www.linkedin.com/company/specollective), [Twitter](https://twitter.com/specollective), [Facebook](https://www.facebook.com/specollective) and [the Buffalo Project Twitter](https://twitter.com/project_buffalo).
+For more information on SPEC, visit <https://specollective.org>, or connect via [LinkedIn](https://www.linkedin.com/company/specollective), [Twitter](https://twitter.com/specollective), [Facebook](https://www.facebook.com/specollective) and [the Buffalo Project Twitter](https://twitter.com/project_buffalo).
 
 **Sources**:
 
