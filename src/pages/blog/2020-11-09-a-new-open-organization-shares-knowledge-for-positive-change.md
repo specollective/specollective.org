@@ -4,7 +4,7 @@ title: A New Open  Organization Shares Knowledge for Positive Change
 date: 2020-11-09T23:28:06.609Z
 description: Sustainable Progress and Equality Collective (SPEC) - upskilling
   and building community in times of social unrest
-featuredpost: true
+featuredpost: false
 featuredimage: /img/apple-touch-icon.png
 tags:
   - spec
