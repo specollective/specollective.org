@@ -90,6 +90,21 @@ npm install --global --production windows-build-tools
 
 MacOS users might also encounter some errors, for more info check [node-gyp](https://github.com/nodejs/node-gyp). We recommend using the latest stable node version.
 
+## Node Version
+
+Within the .nvmrc file you'll find that this app is pinned to node version 14.8.0
+Make sure that you have nvm installed.
+```
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+nvm ls
+```
+
+If you have the latest version of node, you'll need to downgrade to node version 14.8.0. The following commands will refer to the pinned version of node within the .nvmrc file. 
+```
+nvm use
+nvm install
+```
+
 ## Purgecss
 
 This plugin uses [gatsby-plugin-purgecss](https://www.gatsbyjs.org/packages/gatsby-plugin-purgecss/) and [bulma](https://bulma.io/). The bulma builds are usually ~170K but reduced 90% by purgecss.
