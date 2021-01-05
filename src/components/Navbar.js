@@ -76,6 +76,9 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/contact" activeClassName="is-active">
                 Get Involved
               </Link>
+              <Link className="navbar-item" to="/support" activeClassName="is-active">
+                Support
+              </Link>
             </div>
 
             <div className="navbar-end">
