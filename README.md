@@ -99,7 +99,7 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 nvm ls
 ```
 
-If you have the latest version of node, you'll need to downgrade to node version 14.8.0. The following commands will refer to the pinned version of node within the .nvmrc file. 
+If you have the latest version of node, you'll need to downgrade to node version 14.8.0. The following commands will refer to the pinned version of node within the .nvmrc file.
 ```
 nvm use
 nvm install
@@ -115,3 +115,5 @@ Contributions are always welcome, no matter how large or small. Before contribut
 please read the [code of conduct](CODE_OF_CONDUCT.md).
 
 ## Git Testing
+
+Testing
