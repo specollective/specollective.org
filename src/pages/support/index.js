@@ -9,27 +9,13 @@ function encode(data) {
 }
 
 export default class Index extends React.Component {
-  // constructor(props) {
-  //   super(props)
 
-  //   this.state = {
-  //     isValidated: false,
-  //     name: '',
-  //     email: '',
-  //     message: '',
-  //     mentor: false,
-  //     mentee: false,
-  //     contributor: false,
-  //   }
-  // }
   state = {
     isValidated: false,
     name: '',
     email: '',
-    message: '',
-    mentor: false,
-    mentee: false,
-    contributor: false,
+    course:'none',
+    message: ''
   }
 
   handleChange = (e) => {
@@ -42,7 +28,7 @@ export default class Index extends React.Component {
 
   handleSubmit = (e) => {
     e.preventDefault()
-
+    
     const form = e.target
     const { name, email, message, roles } = this.state
     const headers = { 'Content-Type': 'application/x-www-form-urlencoded' }
@@ -57,6 +43,7 @@ export default class Index extends React.Component {
   }
 
   render() {
+    console.log(this.state)
     return (
       <Layout>
         <div className="full-width-image-container margin-top-0 spec-blue-background">
@@ -75,31 +62,6 @@ export default class Index extends React.Component {
                   <p className="is-size-4">
                     Please submit the form to the right with your name, email, the microcredential you are in, and a message about the issue you are experiencing.
                   </p>
-                  {/* <div className="social-media">
-                    <a
-                      href="https://www.facebook.com/specollective"
-                      target="_blank"
-                      className="button is-light is-large"
-                    >
-                      <i className="fab fa-facebook-square" aria-hidden="true"></i>
-                    </a>
-
-                    <a
-                      href="https://twitter.com/specollective"
-                      target="_blank"
-                      className="button is-light is-large"
-                    >
-                      <i className="fab fa-twitter" aria-hidden="true"></i>
-                    </a>
-
-                    <a
-                      href="https://www.linkedin.com/company/specollective"
-                      target="_blank"
-                      className="button is-light is-large"
-                    >
-                      <i className="fab fa-linkedin-in" aria-hidden="true"></i>
-                    </a>
-                  </div> */}
                 </div>
                 <div className="column is-one-third has-text-left">
                   <form
@@ -141,21 +103,17 @@ export default class Index extends React.Component {
                       </div>
                     </div>
                     <div className="field">
+                    <label className="label">
+                        Course
+                      </label>
                       <div className="control">
-                        <label className="checkbox">
-                          <input name="mentor" type="checkbox" onChange={this.handleCheck} /> Office Street Smarts
+                        <label className="dropdown">
+                          <select name="course" onChange={this.handleChange} value={this.state.value}>
+                            <option value='none'>None</option>
+                            <option value='office-street-smarts'>Office Street Smarts</option>
+                          </select>
                         </label>
                       </div>
-                      {/* <div className="control">
-                        <label className="checkbox">
-                          <input name="mentee" type="checkbox" onChange={this.handleCheck} /> Mentee
-                        </label>
-                      </div>
-                      <div className="control">
-                        <label className="checkbox">
-                          <input name="contributor" type="checkbox" onChange={this.handleCheck} /> Contributor
-                        </label>
-                      </div> */}
                     </div>
                     <div className="field">
                       <label className="label">
