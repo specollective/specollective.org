@@ -22,8 +22,21 @@ team:
     title: Steering Committee Member
     group: committee
     linkedin: https://www.linkedin.com/in/menoukha-case-982a611b4
+  - name: Leah Harper-Lane
+    title: Steering Committee Member
+    image: /img/leah-harper-lane.jpeg
+    group: committee
+    linkedin: https://www.linkedin.com/in/leahharperlanestrongbrew
+  - name: Marissa Lee
+    title: Steering Committee Member
+    group: committee
+    linkedin: https://www.linkedin.com/in/iammarissalee
+  - name: Isaac Fennell
+    title: Steering Committee Member
+    group: committee
+    linkedin:  https://www.linkedin.com/in/b-isaac-fennell-hr-leader
   - name: Nan Eileen Mead
-    title: Interim Executive Director
+    title: Research Lead 
     image: /img/nan-mead.jpeg
     linkedin: https://www.linkedin.com/in/naneileenmead
     group: core-team
@@ -33,7 +46,7 @@ team:
     linkedin: https://www.linkedin.com/in/nayury-farber-b82025152
     group: core-team
   - name: Marcus Steiner
-    title: Executive Research Associate
+    title: Technical Operations Lead
     image: /img/markus-steiner.jpg
     linkedin: https://www.linkedin.com/in/msteiner12
     group: core-team

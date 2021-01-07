@@ -15,7 +15,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent, team }) =>
           About Us
         </h2>
       </div>
-      <div className="container">
+      <div className="container"> 
         <div className="columns">
           <div className="column is-10 is-offset-1">
             <div className="section">
