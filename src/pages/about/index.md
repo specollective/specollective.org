@@ -22,25 +22,21 @@ team:
     title: Steering Committee Member
     group: committee
     linkedin: https://www.linkedin.com/in/menoukha-case-982a611b4
-  - name: Dominique Murawski
-    title: Steering Committee Member
-    group: committee
-    linkedin: https://www.linkedin.com/in/dominique-m-a651277a
   - name: Nan Eileen Mead
     title: Interim Executive Director
     image: /img/nan-mead.jpeg
     linkedin: https://www.linkedin.com/in/naneileenmead
-    group: executive
+    group: core-team
   - name: Nay Farber
     title: PM / Social Media Coordinator
     image: /img/nay-farber.jpeg
     linkedin: https://www.linkedin.com/in/nayury-farber-b82025152
-    group: executive
+    group: core-team
   - name: Marcus Steiner
     title: Executive Research Associate
     image: /img/markus-steiner.jpg
     linkedin: https://www.linkedin.com/in/msteiner12
-    group: executive
+    group: core-team
 ---
 # History
 
