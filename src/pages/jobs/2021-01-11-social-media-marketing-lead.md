@@ -2,7 +2,7 @@
 templateKey: job-post
 title: Social Media and Marketing Lead
 date: 2021-01-11
-description:
+description: Social Media and Marketing Lead Job Description
 tags: []
 ---
 # Introduction
