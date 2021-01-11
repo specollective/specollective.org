@@ -4,39 +4,32 @@ path: /about
 title: History
 team:
   - name: Dr. Rhianna Rogers
-    title: Co-founder
     image: /img/rhianna.png
     group: founders
     linkedin: https://www.linkedin.com/in/dr-rhianna-c-rogers-3270529a
   - name: Joe Torreggiani
-    title: Co-founder
     image: /img/joe-torreggiani.jpeg
     group: founders
     linkedin: https://www.linkedin.com/in/joetorreggiani
   - name: James W. Schuetz P.G
-    title: Steering Committee Member
     image: /img/james-schuetz.jpeg
     group: committee
     linkedin: https://www.linkedin.com/in/jim-schuetz-p-g-20945516
-  - name: Dr. Menoukha Robin Case
-    title: Steering Committee Member
-    group: committee
-    linkedin: https://www.linkedin.com/in/menoukha-case-982a611b4
   - name: Leah Harper-Lane
-    title: Steering Committee Member
     image: /img/leah-harper-lane.jpeg
     group: committee
     linkedin: https://www.linkedin.com/in/leahharperlanestrongbrew
   - name: Marissa Lee
-    title: Steering Committee Member
     image: /img/marissa-lee.jpeg
     group: committee
     linkedin: https://www.linkedin.com/in/iammarissalee
   - name: Isaac Fennell
-    title: Steering Committee Member
     image: /img/isaac-fennell.jpeg
     group: committee
     linkedin:  https://www.linkedin.com/in/b-isaac-fennell-hr-leader
+  - name: Dr. Menoukha Robin Case
+    group: committee
+    linkedin: https://www.linkedin.com/in/menoukha-case-982a611b4
   - name: Nan Eileen Mead
     title: Research Lead 
     image: /img/nan-mead.jpeg
@@ -53,25 +46,22 @@ team:
     linkedin: https://www.linkedin.com/in/msteiner12
     group: core-team
   - name: Carly Van Syckle
-    title: CITISEN
     image: /img/carly-van-syckle.jpeg
     group: research-associate
     linkedin: https://www.linkedin.com/in/carly-van-syckle-20444717a/
   - name: Mikayla Schneiter
-    title: CITISEN
     image: /img/mikayla-schneiter.jpg
     group: research-associate
     linkedin: https://www.linkedin.com/in/mikayla-s-9499891a0/
+  - name: Asia Moore
+    image: /img/asia-moore.jpeg
+    group: research-associate
+    linkedin: https://www.linkedin.com/in/asiamoore-community/
   - name: Johnson Kow
-    title: CITISEN
     image: /img/johnson-kow.JPEG
     group: research-associate
     linkedin: https://www.linkedin.com/in/johnson-kow/
-  - name: Asia Moore
-    title: CITISEN
-    group: research-associate
   - name: Bethany Patterson
-    title: CITISEN
     group: research-associate
 ---
 # History
