@@ -36,7 +36,7 @@ team:
     linkedin: https://www.linkedin.com/in/naneileenmead
     group: core-team
   - name: Nay Farber
-    title: PM / Social Media Coordinator
+    title: Core Research Associate
     image: /img/nay-farber.jpeg
     linkedin: https://www.linkedin.com/in/nayury-farber-b82025152
     group: core-team
@@ -45,6 +45,11 @@ team:
     image: /img/markus-steiner.jpg
     linkedin: https://www.linkedin.com/in/msteiner12
     group: core-team
+  - name: Sandra Ortiz Juarez
+    title: Core Research Associate
+    image: /img/sandra-ortiz-juarez.jpeg
+    group: core-team
+    linkedin: https://www.linkedin.com/in/sandraoj/
   - name: Carly Van Syckle
     image: /img/carly-van-syckle.jpeg
     group: research-associate
@@ -53,10 +58,6 @@ team:
     image: /img/mikayla-schneiter.jpg
     group: research-associate
     linkedin: https://www.linkedin.com/in/mikayla-s-9499891a0/
-  - name: Sandra Ortiz Juarez
-    image: /img/sandra-ortiz-juarez.jpeg
-    group: research-associate
-    linkedin: https://www.linkedin.com/in/sandraoj/
   - name: Asia Moore
     image: /img/asia-moore.jpeg
     group: research-associate
