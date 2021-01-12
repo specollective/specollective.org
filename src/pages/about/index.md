@@ -41,7 +41,7 @@ team:
     linkedin: https://www.linkedin.com/in/nayury-farber-b82025152
     group: core-team
   - name: Marcus Steiner
-    title: Technical Operations Lead
+    title: Operations Lead
     image: /img/markus-steiner.jpg
     linkedin: https://www.linkedin.com/in/msteiner12
     group: core-team
@@ -53,6 +53,10 @@ team:
     image: /img/mikayla-schneiter.jpg
     group: research-associate
     linkedin: https://www.linkedin.com/in/mikayla-s-9499891a0/
+  - name: Sandra Ortiz Juarez
+    image: /img/sandra-ortiz-juarez.jpeg
+    group: research-associate
+    linkedin: https://www.linkedin.com/in/sandraoj/
   - name: Asia Moore
     image: /img/asia-moore.jpeg
     group: research-associate
