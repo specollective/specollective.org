@@ -28,8 +28,17 @@ team:
     group: committee
     linkedin:  https://www.linkedin.com/in/b-isaac-fennell-hr-leader
   - name: Dr. Menoukha Robin Case
+    image: /img/menoukha.jpg
     group: committee
     linkedin: https://www.linkedin.com/in/menoukha-case-982a611b4
+  - name: Charles Harrison
+    image: /img/charles-harrison.jpeg
+    linkedin: https://www.linkedin.com/in/harrisoncharles/
+    group: committee
+  - name: Alissa Steele
+    image: /img/alissa-steele.jpeg
+    linkedin: https://www.linkedin.com/in/alissa-steele/
+    group: committee
   - name: Nan Eileen Mead
     title: Research Lead 
     image: /img/nan-mead.jpeg
