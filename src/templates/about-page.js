@@ -15,7 +15,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent, team }) =>
           About Us
         </h2>
       </div>
-      <div className="container">
+      <div className="container"> 
         <div className="columns">
           <div className="column is-10 is-offset-1">
             <div className="section">
@@ -34,6 +34,11 @@ export const AboutPageTemplate = ({ title, content, contentComponent, team }) =>
                 Core Contributors
               </h2>
               <TeamGrid gridItems={team.filter(member => member.group === 'core-team')} />
+
+              <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
+                Research  Associates
+              </h2>
+              <TeamGrid gridItems={team.filter(member => member.group === 'research-associate')} />
             </div>
           </div>
         </div>

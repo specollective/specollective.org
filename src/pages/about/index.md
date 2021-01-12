@@ -4,26 +4,34 @@ path: /about
 title: History
 team:
   - name: Dr. Rhianna Rogers
-    title: Co-founder
     image: /img/rhianna.png
     group: founders
     linkedin: https://www.linkedin.com/in/dr-rhianna-c-rogers-3270529a
   - name: Joe Torreggiani
-    title: Co-founder
+    image: /img/joe-torreggiani.jpeg
     group: founders
     linkedin: https://www.linkedin.com/in/joetorreggiani
-    image: /img/joe-torreggiani.jpeg
   - name: James W. Schuetz P.G
-    title: Steering Committee Member
     image: /img/james-schuetz.jpeg
     group: committee
     linkedin: https://www.linkedin.com/in/jim-schuetz-p-g-20945516
+  - name: Leah Harper-Lane
+    image: /img/leah-harper-lane.jpeg
+    group: committee
+    linkedin: https://www.linkedin.com/in/leahharperlanestrongbrew
+  - name: Marissa Lee
+    image: /img/marissa-lee.jpeg
+    group: committee
+    linkedin: https://www.linkedin.com/in/iammarissalee
+  - name: Isaac Fennell
+    image: /img/isaac-fennell.jpeg
+    group: committee
+    linkedin:  https://www.linkedin.com/in/b-isaac-fennell-hr-leader
   - name: Dr. Menoukha Robin Case
-    title: Steering Committee Member
     group: committee
     linkedin: https://www.linkedin.com/in/menoukha-case-982a611b4
   - name: Nan Eileen Mead
-    title: Interim Executive Director
+    title: Research Lead 
     image: /img/nan-mead.jpeg
     linkedin: https://www.linkedin.com/in/naneileenmead
     group: core-team
@@ -33,10 +41,32 @@ team:
     linkedin: https://www.linkedin.com/in/nayury-farber-b82025152
     group: core-team
   - name: Marcus Steiner
-    title: Executive Research Associate
+    title: Operations Lead
     image: /img/markus-steiner.jpg
     linkedin: https://www.linkedin.com/in/msteiner12
     group: core-team
+  - name: Carly Van Syckle
+    image: /img/carly-van-syckle.jpeg
+    group: research-associate
+    linkedin: https://www.linkedin.com/in/carly-van-syckle-20444717a/
+  - name: Mikayla Schneiter
+    image: /img/mikayla-schneiter.jpg
+    group: research-associate
+    linkedin: https://www.linkedin.com/in/mikayla-s-9499891a0/
+  - name: Sandra Ortiz Juarez
+    image: /img/sandra-ortiz-juarez.jpeg
+    group: research-associate
+    linkedin: https://www.linkedin.com/in/sandraoj/
+  - name: Asia Moore
+    image: /img/asia-moore.jpeg
+    group: research-associate
+    linkedin: https://www.linkedin.com/in/asiamoore-community/
+  - name: Johnson Kow
+    image: /img/johnson-kow.JPEG
+    group: research-associate
+    linkedin: https://www.linkedin.com/in/johnson-kow/
+  - name: Bethany Patterson
+    group: research-associate
 ---
 # History
 
