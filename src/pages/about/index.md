@@ -39,6 +39,14 @@ team:
     image: /img/alissa-steele.jpeg
     linkedin: https://www.linkedin.com/in/alissa-steele/
     group: committee
+  - name: Erik Walter
+    image: /img/erik-walter.jpeg
+    linkedin: https://www.linkedin.com/in/erik-walter-73180019/
+    group: committee
+  - name: Karina Loera
+    image:  /img/karina-loera.jpeg
+    linkedin: https://www.linkedin.com/in/karina-loera-30814535/
+    group: committee
   - name: Nan Eileen Mead
     title: Research Lead 
     image: /img/nan-mead.jpeg
@@ -77,6 +85,14 @@ team:
     linkedin: https://www.linkedin.com/in/johnson-kow/
   - name: Bethany Patterson
     group: research-associate
+  - name: Joseph Golden
+    image: /img/joseph-golden.jpeg
+    group: research-associate
+    linkedin: 
+  - name: Buffey Maria Favata 
+    image: /img/buffey-maria-sazata.jpeg
+    group: research-associate
+    linkedin: 
 ---
 # History
 
