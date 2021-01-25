@@ -88,11 +88,7 @@ team:
   - name: Joseph Golden
     image: /img/joseph-golden.jpeg
     group: research-associate
-    linkedin: 
-  - name: Buffey Maria Favata 
-    image: /img/buffey-maria-sazata.jpeg
-    group: research-associate
-    linkedin: 
+    linkedin:
 ---
 # History
 
