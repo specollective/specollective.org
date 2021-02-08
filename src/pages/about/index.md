@@ -52,11 +52,6 @@ team:
     image: /img/nan-mead.jpeg
     linkedin: https://www.linkedin.com/in/naneileenmead
     group: core-team
-  - name: Nay Farber
-    title: Core Research Associate
-    image: /img/nay-farber.jpeg
-    linkedin: https://www.linkedin.com/in/nayury-farber-b82025152
-    group: core-team
   - name: Marcus Steiner
     title: Operations Lead
     image: /img/markus-steiner.jpg
@@ -67,6 +62,11 @@ team:
     image: /img/sandra-ortiz-juarez.jpeg
     group: core-team
     linkedin: https://www.linkedin.com/in/sandraoj/
+  - name: Nay Farber
+    title: Core Research Associate
+    image: /img/nay-farber.jpeg
+    linkedin: https://www.linkedin.com/in/nayury-farber-b82025152
+    group: research-associate
   - name: Carly Van Syckle
     image: /img/carly-van-syckle.jpeg
     group: research-associate
