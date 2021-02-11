@@ -62,6 +62,11 @@ team:
     image: /img/sandra-ortiz-juarez.jpeg
     group: core-team
     linkedin: https://www.linkedin.com/in/sandraoj/
+  - name: Justina Vaughan
+    title: Social Media & Marketing Lead
+    image: /img/justina-vaughan.jpg
+    group: core-team
+    linkedin: https://www.linkedin.com/in/sandraoj/
   - name: Nay Farber
     title: Core Research Associate
     image: /img/nay-farber.jpeg
