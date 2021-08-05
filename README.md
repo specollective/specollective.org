@@ -2,7 +2,7 @@
 
 **Note:** This project is actively under development.
 
-Repository housing the code for the SPEC informational website. You can view website under construction at  [https://specollective.netlify.app](https://specollective.netlify.app).
+Repository housing the code for [https://specollective.org](https://specollective.org).
 
 This project was scaffolded with the [Gatsby + Netlify CMS Starter](https://github.com/netlify-templates/gatsby-starter-netlify-cms).
 
