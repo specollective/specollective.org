@@ -98,7 +98,7 @@ team:
     group: research-associate
     linkedin: https://www.linkedin.com/in/matt-m-moore-130013
 ---
-# Our Team
+# Who we are
 
 SPEC is run by a small dedicated team of part-time contributors and volunteers. We come from diverse backgrounds and have divergent perspectives. Many of us have families, full-time jobs, are going to school, making a career change, or experiencing another major life event. We have all been affected by pandemic and climate crisis in different ways. SPEC strives to create an inclusive and accessible work environment, offering compassion, mutual respect, accountability, and flexibility to our community members.
 SPEC's organizational development process is evolving, as we continuously integrate new knowledge, information, technologies, data, and feedback from our community. Our approach to research and development encourages contributors to seek to understand the world by working collaboratively to change it, and reflecting critically on their efforts.

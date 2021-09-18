@@ -12,7 +12,7 @@ export const OurTeamPageTemplate = ({ title, content, contentComponent, team }) 
     <div>
       <div className="full-width-image-container margin-top-0 spec-blue-background">
         <h2 className="header-title has-text-weight-bold is-size-1 is-white">
-          About Us
+          Our Team
         </h2>
       </div>
       <div className="container">

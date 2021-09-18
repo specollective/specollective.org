@@ -70,9 +70,12 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/our-work" activeClassName="is-active">
                 Our Work
               </Link>
-              <Link className="navbar-item" to="/blog" activeClassName="is-active">
-                Blog
-              </Link>
+              <a
+                className="navbar-item"
+                href="https://medium.com/journal-of-engaged-research"
+              >
+                Journal
+              </a>
               <a
                 className="navbar-item"
                 href="https://docs.specollective.org"
