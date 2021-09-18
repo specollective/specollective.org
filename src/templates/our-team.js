@@ -5,7 +5,7 @@ import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 import TeamGrid from '../components/TeamGrid'
 
-export const AboutPageTemplate = ({ title, content, contentComponent, team }) => {
+export const OurTeamPageTemplate = ({ title, content, contentComponent, team }) => {
   const PageContent = contentComponent || Content
 
   return (
@@ -20,6 +20,24 @@ export const AboutPageTemplate = ({ title, content, contentComponent, team }) =>
           <div className="column is-10 is-offset-1">
             <div className="section">
               <PageContent className="content" content={content} />
+              <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
+                Core Contributors
+              </h2>
+              <TeamGrid gridItems={team.filter(member => member.group === 'core-team')} />
+              <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
+                Research  Associates & Fellows
+              </h2>
+              <TeamGrid gridItems={team.filter(member => member.group === 'research-associate')} />
+
+              <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
+                Alumni & Emeriti
+              </h2>
+              <TeamGrid gridItems={team.filter(member => member.group === 'alumni')} />
+
+              <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
+                Steering Committee
+              </h2>
+              <TeamGrid gridItems={team.filter(member => member.group === 'committee')} />
             </div>
           </div>
         </div>
@@ -28,19 +46,19 @@ export const AboutPageTemplate = ({ title, content, contentComponent, team }) =>
   )
 }
 
-AboutPageTemplate.propTypes = {
+OurTeamPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
   contentComponent: PropTypes.func,
   team: PropTypes.array
 }
 
-const AboutPage = ({ data }) => {
+const OurTeamPage = ({ data }) => {
   const { markdownRemark: post } = data
 
   return (
     <Layout>
-      <AboutPageTemplate
+      <OurTeamPageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
         content={post.html}
@@ -50,14 +68,14 @@ const AboutPage = ({ data }) => {
   )
 }
 
-AboutPage.propTypes = {
+OurTeamPage.propTypes = {
   data: PropTypes.object.isRequired,
 }
 
-export default AboutPage
+export default OurTeamPage
 
 export const aboutPageQuery = graphql`
-  query AboutPage($id: String!) {
+  query OurTeamPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {

@@ -64,15 +64,21 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/about" activeClassName="is-active">
                 About Us
               </Link>
+              <Link className="navbar-item" to="/our-team" activeClassName="is-active">
+                Our Team
+              </Link>
               <Link className="navbar-item" to="/our-work" activeClassName="is-active">
                 Our Work
-              </Link>
-              <Link className="navbar-item" to="/events" activeClassName="is-active">
-                Events
               </Link>
               <Link className="navbar-item" to="/blog" activeClassName="is-active">
                 Blog
               </Link>
+              <a
+                className="navbar-item"
+                href="https://docs.specollective.org"
+              >
+                Documentation
+              </a>
               <Link className="navbar-item" to="/contact" activeClassName="is-active">
                 Get Involved
               </Link>

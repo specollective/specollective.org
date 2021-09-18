@@ -60,13 +60,12 @@ export const IndexPageTemplate = ({
                       </div>
 
                       <div className="content is-size-1 has-text-centered has-text-white">
-                        <p className="is-size-5">{mainpitch.description}</p>
-
                         <article className="message">
                           <div className="message-body is-size-4 mainpitch-quote">
                             {mainpitch.quote}
                           </div>
                         </article>
+                        <p className="is-size-5">{mainpitch.description}</p>
                       </div>
                     </div>
                   </div>
@@ -113,25 +112,14 @@ export const IndexPageTemplate = ({
                   <div className="content">
                     <div className="content">
                       <h1 className="site-title has-text-weight-semibold is-size-1">
-                        Our Work
+                        Background
                       </h1>
                     </div>
 
                     <div className="content">
                       <p>
-                        We want to build a community in which we will learn together, from one another, and for one another. A community in which knowledge and collaboration have no boundaries, and a community in which egos are put aside to make room for inclusive, honest relationships. Within that community, contributions of any kind are welcome, as long as they enable us to support, produce, and achieve more. Our community building efforts are focused on three core activities.
+                        SPEC was founded in June 2020 in response to the challenges of the COVID19 pandemic and social unrest facing communities across the United States. Its co-founders, Dr. Rhianna Rogers and Joe Torreggiani, connected online when Joe posted an offer to provide mentoring, technical training, and micro-loans to individuals from underrepresented backgrounds, and Dr. Rogers reached out about collaborating. They immediately discovered a shared mission of wanting to make the world work for everyone and deep concern about environmental and social justice. They established SPEC to empower individuals in their communities to learn new skills, build careers, and make an impact during this time of crisis and uncertainty.
                       </p>
-                      <ul>
-                        <li>
-                          Using participatory, data-driven research to create actions, initiatives, and propose solutions, so people may meet other members of their communities, promote sustainable relationship building, social innovation, and collective action.
-                        </li>
-                        <li>
-                          Providing mentoring, training, and internships to people from underrepresented groups to help them get into the job market and become financially independent and sustainable.
-                        </li>
-                        <li>
-                          Hosting events, gatherings, and workshops to facilitate direct networking opportunities, as well as face-to-face knowledge exchange.
-                        </li>
-                      </ul>
                     </div>
                   </div>
                 </div>
@@ -176,7 +164,7 @@ export const IndexPageTemplate = ({
         </div>
       </section>
 
-      <section className="section section--gradient">
+      {/*<section className="section section--gradient">
         <div className="container">
           <div className="section">
             <div className="columns">
@@ -200,7 +188,7 @@ export const IndexPageTemplate = ({
             </div>
           </div>
         </div>
-      </section>
+      </section>*/}
 
       <MailingListForm />
     </div>

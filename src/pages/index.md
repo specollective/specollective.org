@@ -4,35 +4,25 @@ title: Sustainable Progress and Equality Collective
 subtitle: Sharing Knowledge. Building Communities.
 image: /img/home-jumbotron.jpg
 mainpitch:
-  title: Who We Are
+  title: Introduction
   description: >
-    Founded in June 2020, the Sustainable Progress and Equality Collective (SPEC) is an open-learning
-    organization that empowers individuals to be catalysts for change.
+    The Sustainable Progress and Equality Collective (SPEC) is an open learning organization that empowers individuals to be catalysts for positive change. Our mission is to empower individuals to become globally-minded change agents by helping them learn the essential skills required to build sustainable careers and make a positive impact in their communities. We aim to shape the next generation of leaders who will need to tackle the challenges facing their communities and the world at large. SPEC achieves this aim through research & development, mentorship, training, paid & unpaid research positions, and hosting events for people from underrepresented backgrounds, underserved communities, non-traditional backgrounds, and allies to the causes of environmental and social justice.
   quote: >
-    SPEC's mission is to empower individuals to become globally-minded
-    change agents by helping them learn the essential skills required to build
-    sustainable careers and make a positive impact in their communities.
+    "Make the world work for 100% of humanity, in the shortest possible time, through spontaneous cooperation without ecological offense or disadvantage of anyone" - Buckminster Fuller
 values:
-  title: Our Values
+  title: Operating Principles
 intro:
   blurbs:
-    - image: /img/coffee.png
-      title: Mutual Reciprocity
-      icon: handshake
-      text: >
-        We treat our people, partners, contributors, participants, and everyone
-        else in our communities with respect and mutual reciprocity.
-    - image: /img/coffee-gear.png
-      icon: open-book
-      title: Transparency
-      text: >
-        Transparency is key if we want to raise awareness, inform, and advocate
-        change. We communicate openly, sincerely, and directly.
-    - image: /img/tutorials.png
+    - image:
+      title: Sustainability Through Adaptability
       icon: globe
-      title: Sustainability & Inclusivity
       text: >
-        We believe progress is a byproduct of inclusive and sustainable
-        practices, and that environmental and social justice are intrinsically
-        tied.
+    - image:
+      icon: open-book
+      title: Progress Through Open Collaboration
+      text: >
+    - image:
+      icon: handshake
+      title: Equality Through Mutual Reciprocity
+      text: >
 ---
