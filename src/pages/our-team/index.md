@@ -76,6 +76,26 @@ team:
     image: /img/johnson-kow.JPEG
     group: research-associate
     linkedin: https://www.linkedin.com/in/johnson-kow/
+  - name: Lu Daley
+    title: Research Associate
+    image: /img/placeholder
+    group: research-associate
+    linkedin: https://www.linkedin.com/in/ludaley/
+  - name:  Ilia de Leon
+    title: Research Associate
+    image: /img/ilia-de-leon.jpeg
+    group: research-associate
+    linkedin: https://www.linkedin.com/in/IliadeLeon/
+  - name: Kimberly Charis
+    title: Research Associate
+    image: /img/placeholder.jpg
+    group: research-associate
+    # linkedin: https://www.linkedin.com/in/MaybeKimberlyCharis/
+  - name:  Grant Newland 
+    title: Research Associate
+    image: /img/grant-newland.jpg
+    group: research-associate
+    # linkedin: null
   - name: Bethany Patterson
     group: alumni
   - name: Julia Catalano
