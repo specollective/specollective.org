@@ -14,7 +14,7 @@ values:
 intro:
   blurbs:
     - image:
-      title: Sustainability Through Adaptability
+      title: Sustainability Through Systems Thinking
       icon: globe
       text: >
     - image:
