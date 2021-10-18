@@ -91,6 +91,11 @@ team:
     image: /img/placeholder.jpg
     group: research-associate
     # linkedin: https://www.linkedin.com/in/MaybeKimberlyCharis/
+  - name:  Grant Newland 
+    title: Research Associate
+    image: /img/grant-newland.jpg
+    group: research-associate
+    # linkedin: null
   - name: Bethany Patterson
     group: alumni
   - name: Julia Catalano
