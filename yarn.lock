@@ -9620,6 +9620,11 @@ lines-and-columns@^1.1.6:
   resolved "https://registry.yarnpkg.com/lines-and-columns/-/lines-and-columns-1.1.6.tgz#1c00c743b433cd0a4e80758f7b64a57440d9ff00"
   integrity sha1-HADHQ7QzzQpOgHWPe2SldEDZ/wA=
 
+link@^0.1.5:
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/link/-/link-0.1.5.tgz#7fc7aa5bd3f6ac5a19c5255a23f4207d6852e92e"
+  integrity sha1-f8eqW9P2rFoZxSVaI/QgfWhS6S4=
+
 load-bmfont@^1.3.1, load-bmfont@^1.4.0:
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/load-bmfont/-/load-bmfont-1.4.1.tgz#c0f5f4711a1e2ccff725a7b6078087ccfcddd3e9"
@@ -14967,12 +14972,13 @@ spdy@^4.0.2:
     select-hose "^2.0.0"
     spdy-transport "^3.0.0"
 
-spec-ods@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/spec-ods/-/spec-ods-0.0.1.tgz#7bf660834b55e78eea72e312e3224de65384a9ce"
-  integrity sha512-v6+65y37Qc3TEXqBy7Jn+4YkR5ikT1izOl6heIqAzPgdZaDTysBTdUNdnkwPvmo/Xig6O+Gf50Mw2XcIBmEV0w==
+spec-ods@0.0.7:
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/spec-ods/-/spec-ods-0.0.7.tgz#80082199381b975431530ed5e3feb3ba1781f0de"
+  integrity sha512-/qHm+9EMYrPmB4dEC4rzeyADZqAkLxnPBbKjyNeuTF+xbqcXijh9cWSc4cj65LrmT4gHxj+Y4JwJHDMnm6GFFg==
   dependencies:
     "@stencil/core" "^2.7.0"
+    link "^0.1.5"
 
 split-on-first@^1.0.0:
   version "1.1.0"
