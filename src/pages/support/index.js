@@ -28,9 +28,8 @@ export default class Index extends React.Component {
 
   handleSubmit = (e) => {
     e.preventDefault()
-    
+
     const form = e.target
-    const { name, email, message, roles } = this.state
     const headers = { 'Content-Type': 'application/x-www-form-urlencoded' }
     const body = encode({
       'form-name': form.getAttribute('name'),
