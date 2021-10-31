@@ -59,10 +59,31 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-netlify-cms',
+      resolve: "gatsby-plugin-netlify-cms",
       options: {
+        manualInit: true,
         modulePath: `${__dirname}/src/cms/cms.js`,
-      },
+        publicPath: "cms",
+        customizeWebpackConfig: (config, { stage, plugins }) => {
+          config.resolve = {
+            ...config.resolve,
+            alias: {
+              ...config.resolve.alias,
+              path: require.resolve("path-browserify")
+            },
+            fallback: {
+              ...config.resolve.fallback,
+              fs: false,
+              child_process: false,
+              module: false
+            }
+          };
+          if (stage === "build-javascript" || stage === "develop") {
+            config.plugins.push(plugins.provide({ process: "process/browser" }));
+          }
+          config.plugins.push(plugins.provide({ Buffer: ["buffer", "Buffer"] }));
+        }
+      }
     },
     {
       resolve: 'gatsby-plugin-purgecss', // purges all unused/unreferenced css rules
