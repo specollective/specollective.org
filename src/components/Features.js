@@ -1,8 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
-import handshake from '../img/handshake.svg'
 import SpecIcon from '../components/SpecIcon'
+import handshake from '../img/handshake.svg'
 
 const FeatureGrid = ({ gridItems }) => (
   <div className="columns is-multiline">
