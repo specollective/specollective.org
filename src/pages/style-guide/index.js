@@ -1,5 +1,4 @@
 import React from 'react'
-import Layout from '../../components/Layout'
 
 export default class StyleGuidePage extends React.Component {
   render() {

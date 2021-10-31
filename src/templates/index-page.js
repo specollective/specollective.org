@@ -4,7 +4,6 @@ import { Link, graphql } from 'gatsby'
 import logo from '../img/spec-logo.png'
 import Layout from '../components/Layout'
 import Features from '../components/Features'
-import EventList from '../components/EventList'
 import MailingListForm from '../components/MailingListForm'
 
 export const IndexPageTemplate = ({

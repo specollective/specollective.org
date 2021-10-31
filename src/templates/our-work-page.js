@@ -2,18 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
-import Features from '../components/Features'
-import Testimonials from '../components/Testimonials'
-import Pricing from '../components/Pricing'
 import Content, { HTMLContent } from '../components/Content'
-import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
-import vennDiagram from '../img/spec-venn.png'
-
-// style={{
-//   backgroundImage: `linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(${
-//     !!image.childImageSharp ? image.childImageSharp.fluid.src : image
-//   })`,
-// }}
 
 export const OurWorkPageTemplate = ({
   content,
