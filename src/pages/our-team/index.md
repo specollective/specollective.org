@@ -86,11 +86,6 @@ team:
     image: /img/ilia-de-leon.jpeg
     group: research-associate
     linkedin: https://www.linkedin.com/in/iliadeleon/
-  - name: Kimberly Charis
-    title: Research Associate
-    image: /img/kimberly-charis.jpeg
-    group: research-associate
-    linkedin: https://www.linkedin.com/in/kimberlycharis/
   - name:  Grant Newland
     title: Research Associate
     image: /img/grant-newland.jpg
