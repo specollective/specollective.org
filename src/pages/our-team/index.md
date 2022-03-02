@@ -112,6 +112,11 @@ team:
     image: /img/joseph-golden.jpeg
     group: research-associate
     linkedin: https://www.linkedin.com/in/matt-m-moore-130013
+  - name: Sam Miyamoto
+    title: Research Associate
+    image: /img/sam-miyamoto.jpg
+    group: core-team
+    linkedin: https://www.linkedin.com/in/e-samantha-miyamoto/
 ---
 # Who we are
 
