@@ -88,6 +88,37 @@ npm install --global --production windows-build-tools
 
 MacOS users might also encounter some errors, for more info check [node-gyp](https://github.com/nodejs/node-gyp). We recommend using the latest stable node version.
 
+## Making a Pull Request (PR)
+Once you have code ready to go locally for a PR, follow these steps:
+
+- Step 1:
+```
+git checkout -b name-of-your-branch
+git add .
+git commit -m "Your commit message"
+git push origin -u name-of-your-branch
+```
+Best practice: Branch name best practice will be to have your branch use your GitHub handle and a descriptive branch name (e.g. jtorreggiani/add-pic-to-team-page)
+
+- Step 2:
+From there, you can go to the repo's Github page, and you see a message about a your newly pushed branch and an option to create a pull request.
+
+- Step 3 (if necessary)
+If you committed your changes to the main branch locally by accident, follow these steps to do a soft reset,
+which will keep your changes staged.
+
+If you only made one commit, do:
+```
+git reset --soft HEAD~1
+```
+
+If you made more than 1 commit, you can do:
+```
+git reset --soft HEAD~[# of commits]
+```
+Then you can create your feature branch and commit per the instructions above in Step 1.
+
+
 ## Node Version
 
 Within the .nvmrc file you'll find that this app is pinned to node version 14.8.0
