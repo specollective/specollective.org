@@ -117,6 +117,11 @@ team:
     image: /img/sam-miyamoto.jpg
     group: core-team
     linkedin: https://www.linkedin.com/in/e-samantha-miyamoto/
+  - name: Yoline Banerjee
+    title: Research Engineer
+    image: /img/yoline-banerjee.jpg
+    group: research-associate
+    linkedin: https://www.linkedin.com/in/yolineb/
 ---
 # Who we are
 
