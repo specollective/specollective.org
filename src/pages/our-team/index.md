@@ -117,6 +117,11 @@ team:
     image: /img/sam-miyamoto.jpg
     group: core-team
     linkedin: https://www.linkedin.com/in/e-samantha-miyamoto/
+  - name: Victoria Lo
+    title: Research Associate
+    image: /img/victoria-lo.jpg
+    group: research-associate
+    linkedin: https://www.linkedin.com/in/victoria-lo/
 ---
 # Who we are
 
