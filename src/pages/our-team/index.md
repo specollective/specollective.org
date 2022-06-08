@@ -117,6 +117,11 @@ team:
     image: /img/sam-miyamoto.jpg
     group: core-team
     linkedin: https://www.linkedin.com/in/e-samantha-miyamoto/
+  - name: Crystal Shamsi
+    title: Research Engineer 
+    image: /img/crystal-shamsi.jpg
+    group: research-associate
+    linkedin: https://www.linkedin.com/in/crystalshamsi/
 ---
 # Who we are
 
