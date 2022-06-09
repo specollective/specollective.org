@@ -118,7 +118,7 @@ team:
     group: core-team
     linkedin: https://www.linkedin.com/in/e-samantha-miyamoto/
   - name: Lawrence Kincheloe
-    title: Researcher
+    title: Research Engineer
     image: /img/lawrence-kincheloe.jpeg
     group: research-associate
     linkedin: https://www.linkedin.com/in/lawrence-kincheloe-45648514/
