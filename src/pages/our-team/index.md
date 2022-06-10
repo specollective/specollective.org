@@ -122,6 +122,11 @@ team:
     image: /img/yoline-banerjee.jpg
     group: research-associate
     linkedin: https://www.linkedin.com/in/yolineb/
+  - name: Victoria Lo
+    title: Research Associate
+    image: /img/victoria-lo.jpg
+    group: research-associate
+    linkedin: https://www.linkedin.com/in/victoria-lo/
 ---
 # Who we are
 
