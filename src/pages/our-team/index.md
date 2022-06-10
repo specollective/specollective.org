@@ -117,11 +117,24 @@ team:
     image: /img/sam-miyamoto.jpg
     group: core-team
     linkedin: https://www.linkedin.com/in/e-samantha-miyamoto/
+<<<<<<< HEAD
   - name: Crystal Shamsi
     title: Research Engineer 
     image: /img/crystal-shamsi.jpg
     group: research-associate
     linkedin: https://www.linkedin.com/in/crystalshamsi/
+=======
+  - name: Yoline Banerjee
+    title: Research Engineer
+    image: /img/yoline-banerjee.jpg
+    group: research-associate
+    linkedin: https://www.linkedin.com/in/yolineb/
+  - name: Victoria Lo
+    title: Research Associate
+    image: /img/victoria-lo.jpg
+    group: research-associate
+    linkedin: https://www.linkedin.com/in/victoria-lo/
+>>>>>>> a0fbd88ed019d347b931903ce7b8724845ced137
 ---
 # Who we are
 
