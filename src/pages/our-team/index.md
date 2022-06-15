@@ -122,7 +122,21 @@ team:
     image: /img/lawrence-kincheloe.jpeg
     group: research-associate
     linkedin: https://www.linkedin.com/in/lawrence-kincheloe-45648514/
-
+  - name: Crystal Shamsi
+    title: Research Engineer 
+    image: /img/crystal-shamsi.jpg
+    group: research-associate
+    linkedin: https://www.linkedin.com/in/crystalshamsi/
+  - name: Yoline Banerjee
+    title: Research Engineer
+    image: /img/yoline-banerjee.jpg
+    group: research-associate
+    linkedin: https://www.linkedin.com/in/yolineb/
+  - name: Victoria Lo
+    title: Research Associate
+    image: /img/victoria-lo.jpg
+    group: research-associate
+    linkedin: https://www.linkedin.com/in/victoria-lo/
 ---
 # Who we are
 
