@@ -117,6 +117,11 @@ team:
     image: /img/sam-miyamoto.jpg
     group: core-team
     linkedin: https://www.linkedin.com/in/e-samantha-miyamoto/
+  - name: Lawrence Kincheloe
+    title: Research Engineer
+    image: /img/lawrence-kincheloe.jpeg
+    group: research-associate
+    linkedin: https://www.linkedin.com/in/lawrence-kincheloe-45648514/
   - name: Crystal Shamsi
     title: Research Engineer 
     image: /img/crystal-shamsi.jpg
