@@ -123,16 +123,18 @@ Other learners reached out about learning software development, building STEAM s
 
 SPEC is a little more than a year old and has already done a lot! Here is a breakdown of our first year.
 
-- Paid out $27,964 to contributors
-- Helped over a dozen people find work
+- Paid out over $200,000 to our community
+- Helped over a dozen people find work and advance their careers
 - Provided credit bearing work experience to students
-- Incubated a handful of community initiatives
-- Facilitated many events and deliberative conversations
+- Incubated a community initiatives
+- Partnered with the RAND Center to Advance Racial Equity Policy
+- Facilitated community events and deliberative conversations
 - Launched the Journal of Engaged Research
+- Released multiple 
 - Developed the SPEC Learning Platform
 - Piloted and delivered a free microcredential course
-- Sponsored an LGBTQI+ art gallery
-- Contributed to open source software and sustainability
+- Sponsored multiple virtual art galleries
+- Developed open source hardware
 
 # Our Collective
 
