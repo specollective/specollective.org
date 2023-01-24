@@ -1,6 +1,6 @@
 # Sustainable Progress and Equality Collective (SPEC) - Informational Website
 
-**Note:** This project is actively under development.
+🚧 This site is deprecated and has been replaced by https://github.com/specollective/spec-frontend.
 
 Repository housing the code for [https://specollective.org](https://specollective.org).
 
