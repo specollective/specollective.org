@@ -3,11 +3,116 @@ templateKey: our-team
 path: /our-team
 title: Our Team
 team:
+  - name: Yoline Banerjee
+    title: Research Engineer
+    image: /img/yoline-banerjee.jpg
+    group: core-team
+    linkedin: https://www.linkedin.com/in/yolineb/
+  - name: Alicia Bong
+    group: core-team
+    image: /img/alicia-bong.jpg
+    title: Research Associate
+    linkedIn: https://www.linkedin.com/in/alicia-bong/
+  - name:  Ilia de Leon
+    title: Research Associate
+    image: /img/ilia-de-leon.jpeg
+    group: core-team
+    linkedin: https://www.linkedin.com/in/iliadeleon/
+  - name: Joseph Golden
+    title: Research Associate
+    image: /img/joe-golden.jpg
+    group: core-team
+    linkedin:
+  - name: Lawrence Kincheloe
+    title: Research Engineer
+    image: /img/lawrence-kincheloe.jpeg
+    group: core-team
+    linkedin: https://www.linkedin.com/in/lawrence-kincheloe-45648514/
+  - name: Victoria Lo
+    title: Research Associate
+    image: /img/victoria-lo.jpg
+    group: core-team
+    linkedin: https://www.linkedin.com/in/victoria-lo/
+  - name: Nan Eileen Mead
+    title: Research Lead
+    image: /img/nan-mead.jpeg
+    linkedin: https://www.linkedin.com/in/naneileenmead
+    group: core-team
+  - name: Sam Miyamoto
+    title: Research Associate
+    image: /img/sam-miyamoto.jpg
+    group: core-team
+    linkedin: https://www.linkedin.com/in/e-samantha-miyamoto/
+  - name: Najwana Nashmin
+    title: Research Associate
+    group: core-team
+    image: /img/najwana-nashmin.png
+    linkedin: https://www.linkedin.com/in/nnashmin/
+  - name:  Grant Newland
+    title: Research Associate
+    image: /img/grant-newland.jpg
+    group: core-team
+    # linkedin: null
+  - name: Crystal Shamsi
+    title: Research Engineer 
+    image: /img/crystal-shamsi.jpg
+    group: core-team
+    linkedin: https://www.linkedin.com/in/crystalshamsi/
+  - name: Marcus Steiner
+    title: Operations Lead
+    image: /img/markus-steiner.jpg
+    linkedin: https://www.linkedin.com/in/msteiner12
+    group: core-team
   - name: Joe Torreggiani
     title: Co-founder | Collective Administrator
     image: /img/joe-torreggiani.jpeg
     group: core-team
     linkedin: https://www.linkedin.com/in/joetorreggiani
+  
+  # Past contributors
+  - name: Nay Farber
+    image: /img/nay-farber.jpeg
+    linkedin: https://www.linkedin.com/in/nayury-farber-b82025152
+    title: Research Associate
+    group: alumni
+  - name: Carly Van Syckle
+    image: /img/carly-van-syckle.jpeg
+    group: alumni
+    title: Research Associate
+    linkedin: https://www.linkedin.com/in/carly-van-syckle-20444717a/
+  - name: Mikayla Schneiter
+    image: /img/mikayla-schneiter.jpg
+    group: alumni
+    title: Research Associate
+    linkedin: https://www.linkedin.com/in/mikayla-s-9499891a0/
+  - name: Johnson Kow
+    title: Research Engineer
+    image: /img/johnson-kow.JPEG
+    group: alumni
+    linkedin: https://www.linkedin.com/in/johnson-kow/
+  - name: Lu Daley
+    title: Research Associate
+    image: /img/lu-daley.jpeg
+    group: alumni
+    linkedin: https://www.linkedin.com/in/ludaley/
+  - name: Bethany Patterson
+    group: alumni
+    title: Research Associate
+  - name: Julia Catalano
+    title: Research Engineer
+    image: /julia-catalano.jpg
+    group: alumni
+  - name: Asia Moore
+    title: Research Associate
+    image: /img/asia-moore.jpeg
+    group: alumni
+    linkedin: https://www.linkedin.com/in/asiamoore-community/
+  - name: Matt Moore
+    title: Research Engineer
+    image: /img/matt-moore.png
+    group: alumni
+    linkedin: https://www.linkedin.com/in/matt-m-moore-130013
+  # Steering Committee
   - name: Dr. Rhianna Rogers
     image: /img/rhianna.png
     title: Co-founder | Chair
@@ -49,96 +154,9 @@ team:
     image:  /img/karina-loera.jpeg
     linkedin: https://www.linkedin.com/in/karina-loera-30814535/
     group: committee
-  - name: Nan Eileen Mead
-    title: Research Lead
-    image: /img/nan-mead.jpeg
-    linkedin: https://www.linkedin.com/in/naneileenmead
-    group: core-team
-  - name: Marcus Steiner
-    title: Operations Lead
-    image: /img/markus-steiner.jpg
-    linkedin: https://www.linkedin.com/in/msteiner12
-    group: core-team
-  - name: Nay Farber
-    image: /img/nay-farber.jpeg
-    linkedin: https://www.linkedin.com/in/nayury-farber-b82025152
-    group: alumni
-  - name: Carly Van Syckle
-    image: /img/carly-van-syckle.jpeg
-    group: alumni
-    linkedin: https://www.linkedin.com/in/carly-van-syckle-20444717a/
-  - name: Mikayla Schneiter
-    image: /img/mikayla-schneiter.jpg
-    group: alumni
-    linkedin: https://www.linkedin.com/in/mikayla-s-9499891a0/
-  - name: Johnson Kow
-    title: Research Engineer
-    image: /img/johnson-kow.JPEG
-    group: research-associate
-    linkedin: https://www.linkedin.com/in/johnson-kow/
-  - name: Lu Daley
-    title: Research Associate
-    image: /img/lu-daley.jpeg
-    group: research-associate
-    linkedin: https://www.linkedin.com/in/ludaley/
-  - name:  Ilia de Leon
-    title: Research Associate
-    image: /img/ilia-de-leon.jpeg
-    group: research-associate
-    linkedin: https://www.linkedin.com/in/iliadeleon/
-  - name:  Grant Newland
-    title: Research Associate
-    image: /img/grant-newland.jpg
-    group: research-associate
-    # linkedin: null
-  - name: Bethany Patterson
-    group: alumni
-  - name: Julia Catalano
-    title: Research Engineer
-    image: /julia-catalano.jpg
-    group: research-associate
-  - name: Asia Moore
-    title: Fellow
-    image: /img/asia-moore.jpeg
-    group: research-associate
-    linkedin: https://www.linkedin.com/in/asiamoore-community/
-  - name: Joseph Golden
-    title: Research Associate
-    image: /img/joseph-golden.jpeg
-    group: research-associate
-    linkedin:
-  - name: Matt Moore
-    title: Research Engineer
-    image: /img/joseph-golden.jpeg
-    group: research-associate
-    linkedin: https://www.linkedin.com/in/matt-m-moore-130013
-  - name: Sam Miyamoto
-    title: Research Associate
-    image: /img/sam-miyamoto.jpg
-    group: core-team
-    linkedin: https://www.linkedin.com/in/e-samantha-miyamoto/
-  - name: Lawrence Kincheloe
-    title: Research Engineer
-    image: /img/lawrence-kincheloe.jpeg
-    group: research-associate
-    linkedin: https://www.linkedin.com/in/lawrence-kincheloe-45648514/
-  - name: Crystal Shamsi
-    title: Research Engineer 
-    image: /img/crystal-shamsi.jpg
-    group: research-associate
-    linkedin: https://www.linkedin.com/in/crystalshamsi/
-  - name: Yoline Banerjee
-    title: Research Engineer
-    image: /img/yoline-banerjee.jpg
-    group: research-associate
-    linkedin: https://www.linkedin.com/in/yolineb/
-  - name: Victoria Lo
-    title: Research Associate
-    image: /img/victoria-lo.jpg
-    group: research-associate
-    linkedin: https://www.linkedin.com/in/victoria-lo/
 ---
 # Who we are
 
 SPEC is run by a small dedicated team of part-time contributors and volunteers. We come from diverse backgrounds and have divergent perspectives. Many of us have families, full-time jobs, are going to school, making a career change, or experiencing another major life event. We have all been affected by pandemic and climate crisis in different ways. SPEC strives to create an inclusive and accessible work environment, offering compassion, mutual respect, accountability, and flexibility to our community members.
+
 SPEC's organizational development process is evolving, as we continuously integrate new knowledge, information, technologies, data, and feedback from our community. Our approach to research and development encourages contributors to seek to understand the world by working collaboratively to change it, and reflecting critically on their efforts.

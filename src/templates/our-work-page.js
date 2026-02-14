@@ -31,11 +31,7 @@ export const OurWorkPageTemplate = ({
         <div className="container">
           <div className="columns">
             <div className="column is-10 is-offset-1">
-              <div className="section">
-                <div className="content">
-                  <PostContent className="content" content={content} />
-                </div>
-              </div>
+              <PostContent className="content" content={content} />
             </div>
           </div>
 
@@ -65,39 +61,6 @@ export const OurWorkPageTemplate = ({
             </div>
           </div>
         </div>
-
-        {/*<div className="container">
-          <div className="columns">
-            <div className="column is-10 is-offset-1">
-              <div className="content">
-                <h3 className="has-text-weight-semibold is-size-2 has-text-centered">
-                  {heading}
-                </h3>
-              </div>
-
-              <div className="content">
-                <p className="has-text-centered">{description}</p>
-              </div>
-
-              <div className="content">
-                <img src={vennDiagram} />
-              </div>
-            </div>
-          </div>*/}
-
-          {/*<div className="columns">
-            <div className="column is-12">
-              <div className="section">
-                <div className="content">
-                  <h3 className="has-text-weight-semibold is-size-2 has-text-centered">
-                    Our Focus Areas
-                  </h3>
-                  <Features gridItems={intro.blurbs} />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>*/}
       </section>
     </div>
   )

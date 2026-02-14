@@ -25,12 +25,7 @@ export const OurTeamPageTemplate = ({ title, content, contentComponent, team }) 
               </h2>
               <TeamGrid gridItems={team.filter(member => member.group === 'core-team')} />
               <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
-                Research  Associates & Fellows
-              </h2>
-              <TeamGrid gridItems={team.filter(member => member.group === 'research-associate')} />
-
-              <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
-                Alumni & Emeriti
+                Past Contributors
               </h2>
               <TeamGrid gridItems={team.filter(member => member.group === 'alumni')} />
 

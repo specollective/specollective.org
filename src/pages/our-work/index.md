@@ -70,35 +70,24 @@ testimonials:
 
 # Our Vision
 
-SPEC takes inspiration from the work of the renowned 20th century inventor and visionary Richard Buckminster Fuller. Fuller dedicated his life to creating systems that would enable people to live healthy and productive lives. He envisioned a "World Game", in which groups of experts collected and analyzed all the information and data available on the world's resources and industries. These teams would collaborate to develop sustainable solutions to global problems like poverty, homelessness, hunger, pandemics, and environmental destruction. Fuller's goal was, as he put it, to
+Our vision is to accelerate sustainable development and build social equity through open collaborative innovation. We seek to train the next generation leaders and change makers, and incubate communities initiatives focused on creating positive social impact and protecting the environment. We take inspiration from the work of the renowned 20th century inventor and visionary Richard Buckminster Fuller. Fuller dedicated his life to creating systems that would enable people to live healthy and productive lives. He envisioned a "World Game", in which groups of experts collected and analyzed all the information and data available on the world's resources and industries. These teams would collaborate to develop sustainable solutions to global problems like poverty, homelessness, hunger, pandemics, and environmental destruction. Fuller's goal was, as he put it:
 
 ***"make the world work for 100% of humanity, in the shortest possible time, through spontaneous cooperation without ecological offense or disadvantage of anyone."***
 
-Unfortunately, during his life time, Fuller didn't have the technology needed to make his World Game a reality. At SPEC, we believe that today humanity has the collective knowledge and technology to realize Fuller's vision. Modern computers enable distributed collaboration, information processing, and data analysis capabilities Bucky only could have dreamed of. We can use these technologies to build radically transparent, sustainable, and equal systems of living and working. If we can harness our collective intelligence and collaboratively innovate, we can make the world work for all people and the environment.
+At SPEC, we believe that today humanity has the collective knowledge and technology to realize Fuller's vision. Modern computers enable distributed collaboration, information processing, and data analysis capabilities Fuller only could have dreamed of. We can use these technologies to build radically transparent, sustainable, and equal systems of living and working. If we can harness our collective intelligence and collaboratively innovate, we can make the world work for all people and the environment.
 
-# What we've accomplished so far
+# Our Work
 
-SPEC is a little more than a year old and has already done a lot! Here is a breakdown of our first year.
+SPEC helps people upskill through paid work experiences contributing to open source projects and research iniatives that support sustainability and social impact. SPEC has developed open source software and hardware, open education programs, research projects, and virtual arts spaces to create opportunities for people from underrepresented backgrounds.
 
-- Paid out $27,964 to contributors
-- Helped over a dozen people find work
+- Paid out over $200,000 to contributors
+- Helped over a dozen people find work and advance their careers
+- Partnered with BuildJustly to develop an application for digital inclusion studies
 - Provided credit bearing work experience to students
-- Incubated a handful of community initiatives
-- Facilitated many events and deliberative conversations
+- Developed an open source Data Events Board in partnership with Data Umbrella
+- Facilitated community events and deliberative conversations
 - Launched the Journal of Engaged Research
-- Developed the SPEC Learning Platform
-- Piloted and delivered a free microcredential course
+- Piloted and delivered a free microcredential courses
 - Sponsored an LGBTQI+ art gallery
 - Contributed to open source software and sustainability
-
-<!-- ### Community Innovation and Technology Internship for a Sustainable and Equitable Nation (CITISEN)
-
-The goal of the CITISEN program is to provide personalized service-learning experiences to help individuals from underrepresented backgrounds achieve financial independence and become community leaders. CITISEN research associates, or simply CITISENs, are connected with experts in their areas of interest to receive mentorship and training. CITISENs are encouraged to research their interests and look for opportunities to contribute in their local communities. Through the CITISEN program and partnerships with community organizations, SPEC offers research assistantships that give interns an opportunity to gain paid work experience applying their skills towards community development and sustainability initiatives. Want to become a CITISEN? [Send us a message](https://www.specollective.org/contact) to get involved.
-
-### SPEC Learning
-
-SPEC Learning is an online educational platform that offers microcredentials, stackable competency-based short microcredentials, focused on bridging skill gaps. The first FREE microcredential offered by SPEC Learning is Office Street Smarts, based on the 2016 survey data collected by the National Association of Colleges and Employers (NACE). This 3-week microcredential is designed to provide essential competency training, including organization, project management, and interpersonal skills, such as teamwork, diversity, communication, and persuasiveness ("Bridge That Gap," 2016). Interested in enrolling Office Street Smarts? Fill out the [interest form](https://docs.google.com/forms/d/e/1FAIpQLSdt_iqJ35GAiOxC7Q9UldDbCgyqU3BEbYV6ZWmFjkYAknMk8Q/viewform) to learn more.
-
-**References**
-
-Bridge that gap: Analyzing the student skill index. (2013, Fall). Retrieved July 17, 2016, from http://www.chegg.com/pulse -->
+- Collaborated with Public Invention to develop open source hardware
